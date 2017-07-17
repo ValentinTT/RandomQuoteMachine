@@ -7,7 +7,7 @@ $(document).ready(function() {
 			nextIsClicked = true;
 
 		$('.row').fadeTo("fast", 0.01, function() {
-			var url1 = "http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
+			var url1 = "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
 			$.getJSON(url1, function(json) {
 				$('.card-block p span').html(json["quoteText"]);
 				if (json["quoteAuthor"] !== "")
