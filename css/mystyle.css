@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Merienda+One");
+
+html, body {
+	height: 100vh;
+	background-color: #ffcdd2;
+	-webkit-transition: background-color 0.5s ease-in-out;
+	-moz-transition: background-color 0.5s ease-in-out;
+	-o-transition: background-color 0.5s ease-in-out;
+	-khtml-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
+}
+* {
+	font-family: "Merienda One";
+}
+#tittle {
+	font-family: "Merienda One" !important;
+}
+.fullheight {
+	height: 80vh;
+	background-color: transparent;
+}
